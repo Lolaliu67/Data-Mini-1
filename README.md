@@ -1,3 +1,5 @@
+Data Mini #1 Competition README.md 
+
 # Data-Mini-1
 Welcome to Data Mini #1! You and your teammates will have 2 hours to explore and prepare a presentation about your data analysis. The hour after will be spent presenting your findings.
 
@@ -28,35 +30,91 @@ Data
 * Charter status and district type
 * Economic disadvantage proportions
 
-| variable | mode | description |
-|----------|------|-------------|
-| campusName | character | |
-| campusNumber | character | |
-| countyName | character | |
-| countyNumber | character | |
-| districtName | character | |
-| districtNumber | character | |
-| region | factor | |
-| schoolLevel | factor | |
-| grade_lo | numeric | |
-| grade_hi | numeric | |
-| charterSchool | logical | |
-| locationType | factor | |
-| studentsTotal | numeric | |
-| teachersTotal | numeric | |
-| s_econ_disadv_prop | numeric | |
-| race | factor | |
-| student_frac | numeric | |
-| teacher_frac | numeric | |
-| student_count | numeric | |
+| variable | mode (in R) | description |
+|----------|-------------|-------------|
+| campusName | character | Name of the school campus |
+| campusNumber | character | Unique identifier for the campus assigned by TEA |
+| countyName | character | Name of the county where the campus is located |
+| countyNumber | character | Numeric code identifying the county |
+| districtName | character | Name of the school district to which the campus belongs |
+| districtNumber | character | Unique identifier for the district assigned by TEA |
+| region | factor | TEA-designated education service region |
+| schoolLevel | factor | Level of schooling offered (e.g., elementary, middle, high school) |
+| grade_lo | numeric | Lowest grade level served by the campus |
+| grade_hi | numeric | Highest grade level served by the campus |
+| charterSchool | logical | Indicator for whether the campus is a charter school (TRUE/FALSE) |
+| locationType | factor | Geographic classification of the district based on NCES categories (e.g., urban, suburban, rural) |
+| studentsTotal | numeric | Total student enrollment at the campus |
+| teachersTotal | numeric | Total number of teachers at the campus |
+| s_econ_disadv_prop | numeric | Proportion of students classified as economically disadvantaged |
+| race | factor | Racial/ethnic category for demographic breakdowns |
+| student_frac | numeric | Proportion of total students in a given racial/ethnic category |
+| teacher_frac | numeric | Proportion of total teachers in a given racial/ethnic category |
+| student_count | numeric | Number of students in a given racial/ethnic category |
 
-#### Citations
+# Competition Policies
+## Code of Conduct
+### AI and Online Sources
+* AI tools and online resources are permitted with proper citations
+* Include citations for forums (Stack Overflow), textbooks, and other references
+* Provide a link to any AI chat conversations used
+* You must list all citations (including the original study’s citation found at the bottom of this `README`) at the end of your code notebook
 
-This dataset was complied by Anchal Bhaskar, Kayla Chang, Iman Najib, Olivia Thornton, Jules Tucher, Régan Schwartz, and Chad M. Topaz at Williams College.
+### Code Reuse
+* You may reuse code from your own research or class projects
+* You may NOT copy from the original student-teacher race match study - doing so will result in a major point deduction
 
-This data is freely accessible through the Institute for the Quantitative Study of Inclusion, Diversity, and Equity (QSIDE).
+## Analysis
+* All types of data modeling are allowed
+* All coding languages are allowed
+
+## Submission Requirements
+We will give teams ~5 minutes after the 2-hour analysis period to submit their code notebook (QMD, PDF, Jupyter, etc.) and presentation media (slides, PDF, etc.) to the Google Drive folder
+* You and your teammates will have received an email from _______@duke.edu near the beginning of the competition start
+* Your team’s Google Drive folder contents will not be accessible to view, comment, or edit by any other team
+
+## Presentation Guidelines
+* Present using any format: Quarto doc, slides, visualizations, etc: Your chosen presentation media will be projected by an SSMU member through your Google Drive
+Presentations will be recorded during the event
+Recordings will be sent to you and your teammates a few days following the event
+SSMU would love to share your analysis with QSIDE and the original dataset creators! 
+The dataset and study were created by previous undergraduate students at Williams College in 2023.
+If you would like to opt into this opportunity, please let us know!
+Presentation order will be randomized, but let us know beforehand if your team has a preference for going first, last, or in the middle
+## Judging
+Winners will be announced on Sunday, February 15
+Presentations will be judged by the story your analysis tells, more than by the level of statistics your team members used.
+This will account for differing experience levels across competitors
+A fair evaluation will be justified by multiple people deciding on competition winners.
+Insert rubric here?!?! ________
+## Post-Competition
+Duke’s StatSci Majors Union will be hosting Data Mini #2 from Feb. 28 - Mar. 1
+This competition will be a little different: ________
+In addition, the Duke Department of Statistical Science will host a larger competition, DataFest, from March 20-22, 2026
+
+## Dataset Acknowledgment
+The Student-Teacher Race-Match dataset and study were created by then-undergraduate students Anchal Bhaskar, Kayla Chang, Iman Najib, Olivia Thornton, Jules Tucher, and Régan Schwartz under the guidance of Professor Chad M. Topaz at Williams College.
+
+This data is freely accessible online through the Institute for the Quantitative Study of Inclusion, Diversity, and Equity (QSIDE).
 
 The citation for the replication package is:
-
 Bhaskar, A., Chang, K., Najib, I., Thornton, O., Tucher, J., Schwartz, R., & Topaz, C. M. (2025). *Sufficiency in Teacher–Student Race Matching*. Manuscript
+
+This citation must be included at the end of your code notebook.
+
+## About This Event
+Data Mini #1 was organized by Duke's Statistical Science Majors Union - Competitions and Opportunities Committee. Contributing members of the committee and the SSMU executive team are listed below:
+Hanna Chee, ‘29
+Trisha Iyer, ‘28
+Shivansh Gupta, ‘28
+Hyunjin Lee, ‘27
+Susan Li, ‘29
+Phillip Lin, ‘27
+Liane Ma, ‘27
+Chelsea Nguyen, ‘28
+Cooper Ruffing, ‘27
+Derek Wang, ‘28
+Amy Xu, ‘27
+Allison Yang, ‘27
+And an additional thank-you goes out to the professors who helped advertise the event.
 
